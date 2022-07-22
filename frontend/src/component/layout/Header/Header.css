@@ -1,0 +1,108 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 7.5vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.Adder{
+  z-index: 10001;
+  background-image: url("../../../images/Iconn.png");
+  /* background-image: url("../../images/Background.png"); */
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0%;
+  position: fixed;
+  bottom: 5vmax;
+  right: 2vmax;
+  /* background-color: rgb(219, 139, 128); */
+}
+
+.ssvg{
+  color: rgb(255, 98, 190);
+  width: 56px;
+  height: 56px;
+  font-size: 2vmax;
+
+}
+
+.Navbar{
+  position:fixed;
+  font-family: Roboto;
+  top: 0%;
+  z-index: 10001;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(0, 0, 0, 0.881);
+  font-weight: 400;
+  background-color: #eacf9c;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-content: space-between; */
+  align-self: center;
+  align-items:center;
+  font-size: 1.5vmax;
+  height: 7vmax;
+}
+.Navbar-1{
+  display: flex;
+  /* margin-right: auto; */
+}
+.Navbar-2{
+  display: flex;
+  margin: auto;
+}
+.Navbar-3{
+  display: flex;
+  margin: auto;
+  margin-right: 5px;
+  right: 5px;
+}
+img{
+  width: 150px;
+  padding: 5px;
+}
+.a{
+  color: rgb(48, 45, 45);
+  font-weight: 400;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: auto;
+}
+.a:hover{
+  color: rgb(41, 39, 39);
+  text-decoration: none;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .Navbar{
+    flex-direction: column;
+    height: 50%;
+    position: static;
+  }
+  .Navbar-1{
+    flex-direction: column;
+  
+  }
+  .Navbar-2{
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .Navbar-3{flex-direction: row;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+  }
+}
